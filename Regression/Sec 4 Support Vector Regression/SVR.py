@@ -124,3 +124,11 @@ plt.xlabel('Position Level')
 plt.ylabel('Salary')
 plt.show()
 
+
+# ## Converting to script
+
+# In[54]:
+
+
+get_ipython().system('jupyter nbconvert --to script SVR.ipynb')
+
